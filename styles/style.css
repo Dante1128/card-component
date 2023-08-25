@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    background-color: #fff;
+    width: 353px;
+    
+    border-radius: 30px;
+    font-family: Robot;
+    font-size: 12px;
+    padding: 32px;
+    
+}
+.profile{
+    position: relative;
+    top: -72px;
+    margin-left: 100px;
+    border-radius: 50%;
+    
+  
+}
+.detalls h2{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-top:-50px ;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.detalls p{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+    font-family:'Roboto', sans-serif ;
+}
+.section-button{
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    
+
+}
+
+
+.seccion-button button:nth-child(1){
+    background-color:#046BA5;
+    border: #046BA5;
+    border-radius: 5%;
+    font-size: 18px;
+    text-align: center;
+    width: 242px; /* Ajusta el ancho del botón según tus necesidades */
+    height: 48px; 
+    color: white;
+}
+.seccion-button button:nth-child(2){
+    background-color:rgba(4, 107, 165, 0.2);
+    padding:10px 11px;
+    border-radius: 20%;
+    border-color:rgba(4, 107, 165, 0.2) ;
+    
+
+
+
+}
